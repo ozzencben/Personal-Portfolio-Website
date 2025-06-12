@@ -1,0 +1,29 @@
+.blog-coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #fdfdfd, #f0f0f0);
+}
+
+.blog-coming-soon .container {
+  max-width: 600px;
+}
+
+.blog-coming-soon h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.blog-coming-soon p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.blog-coming-soon .eng {
+  color: #666;
+  font-style: italic;
+}

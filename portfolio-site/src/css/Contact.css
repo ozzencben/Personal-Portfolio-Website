@@ -1,0 +1,61 @@
+.contact-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DBD56E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.decrypted-text {
+    padding: 10px 20px;
+    max-width: 500px;
+}
+
+.decrypted-text span {
+    font-size: 24px;
+}
+
+.contact-container .links {
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+}
+
+.contact-container .links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-container .links svg {
+    font-size: 28px;
+}
+
+.contact-container .links a:hover svg {
+    animation: rotate 0.7s ease-in-out ;
+    transition: all ease-in-out;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1440deg);
+    }
+}
+
+.contact-container .links small {
+    font-size: 20px;
+}
+
+.contact-container .mail {
+    padding: 10px 20px;
+}
+
+.contact-container .mail a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
